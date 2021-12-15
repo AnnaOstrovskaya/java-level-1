@@ -1,3 +1,12 @@
+/**
+ * Java 1. Homework 1
+ *
+ * stuent: Anna Ostrovskaya
+ * version 1: 09.12.2021
+ * version 2: 11.12.2021
+ * version 3: 14.12.2021
+ */
+
 class HomeWorkAO1 {
 
     static void printThreeWords() {
@@ -15,9 +24,9 @@ class HomeWorkAO1 {
         int value = 15;
         if (value <= 0) {
             System.out.println("Red");
-        } else if (value > 0 && value <= 100) {
+        } else if (value <= 100) {
             System.out.println("Yellow");
-        } else if (value > 100) {
+        } else {
             System.out.println("Green");
         }
     }
