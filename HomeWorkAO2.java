@@ -1,7 +1,15 @@
+/**
+ * Java 1. Homework 2
+ *
+ * stuent: Anna Ostrovskaya
+ * version 1: 11.12.2021
+ * version 2: 14.12.2021
+ */
+
 class HomeWorkAO2 {
 
     static boolean within10and20(int a, int b) {
-        return a + b >= 10 && a + b <= 20 ? true : false;
+        return a + b >= 10 && a + b <= 20;
     }
 
     static void isPositiveOrNegative(int x) {
@@ -10,7 +18,7 @@ class HomeWorkAO2 {
     }
 
     static boolean isNegative(int x) {
-        return x >= 0 ? false : true;
+        return x >= 0;
     }
 
     static void printWordNTimes(String textToPrint, int numberOfLines) {
